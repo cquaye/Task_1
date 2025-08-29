@@ -50,5 +50,5 @@ variable "team2main-team-side-asn" {
 
 variable "main-account-ha-vpn-self-link" {
   type = string
-  default = "VPN SELF-LINK GOES HERE"     #paste the output self link url from the team account terraform
+  default = "https://www.googleapis.com/compute/v1/projects/arma-demoteamaccount/regions/asia-northeast1/vpnGateways/team2main-vpn"     #paste the output self link url from the team account terraform
 }
