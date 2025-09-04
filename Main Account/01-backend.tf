@@ -2,9 +2,9 @@
 
 terraform {
   backend "gcs" {
-    bucket      = "tf-states-class65v3" 
-    prefix      = "terraform/task1mainaccount"
-    credentials = "gcpkey.json"
+    bucket      = "southpawstate-02"
+    prefix      = "terraform/state"
+    credentials = "*"
   }
   required_providers {
     google = {

@@ -2,9 +2,9 @@
 
 terraform {
   backend "gcs" {
-    bucket      = "tf-states-teamaccount" 
-    prefix      = "terraform/task1demo"
-    credentials = "demoteamaccount.json"
+    bucket      = "lab-team" 
+    prefix      = ""
+    credentials = "*"
   }
   required_providers {
     google = {

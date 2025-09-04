@@ -48,10 +48,13 @@ variable "team2main-team-side-asn" {
   default = "65530"
 }
 
-variable "main-account-ha-vpn-self-link" {
+
+
+variable "team-ha-vpn-self-link" {
   type = string
-  default = "https://www.googleapis.com/compute/v1/projects/class65gcpv3/regions/asia-northeast1/vpnGateways/main2team-vpn"     #paste the output self link url from the main account terraform
+  default = "https://www.googleapis.com/compute/v1/projects/dusty-class-6-5-carlton-quaye/regions/asia-northeast1/vpnGateways/main2team-vpn"
 }
+
 
 # Ignore for testing 3rd account
 # #Arma1 Account Information

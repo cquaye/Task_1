@@ -1,7 +1,7 @@
 # https://registry.terraform.io/providers/hashicorp/google/latest/docs
 
 provider "google" {
-  project     = "class65gcpv3"
+  project     = "*"
   region      = "us-central1"
-  credentials = "gcpkey.json"
+  credentials = "*"
 }
